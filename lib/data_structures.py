@@ -17,16 +17,14 @@ spicy_foods = [
 ]
 # quiz 1
 def get_names(spicy_foods):
-  names = [food['name'] for food in 
-spicy_foods]
+  names = [food['name'] for food in spicy_foods]
   return names
 
 print(get_names(spicy_foods))
 
 # quiz 2
 def get_spiciest_foods(spicy_foods):
-  spiciest_foods = [food for food in spicy_foods 
-                    if food['heat_level'] > 5]
+  spiciest_foods = [food for food in spicy_foods if food['heat_level'] > 5]
   return spiciest_foods
 
 print(get_spiciest_foods(spicy_foods))
@@ -97,4 +95,5 @@ spicy_food = {
 }
 
 print(create_spicy_food(spicy_foods,spicy_food))
+
 
